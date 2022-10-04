@@ -1,5 +1,6 @@
 - créer un compte Wallet : https://metamask.io/
 
+- tutorial smart contrat : https://cryptozombies.io/fr/course/
 
 - serveur local de test
   - https://trufflesuite.com/truffle/ 
