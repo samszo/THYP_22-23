@@ -1,0 +1,356 @@
+[{
+    "@context": "http:\/\/localhost\/omk_thyp_22-23\/api-context",
+    "@id": "http:\/\/localhost\/omk_thyp_22-23\/api\/items\/1",
+    "@type": ["o:Item", "jdc:Concept"],
+    "o:id": 1,
+    "o:is_public": true,
+    "o:owner": {
+        "@id": "http:\/\/localhost\/omk_thyp_22-23\/api\/users\/1",
+        "o:id": 1
+    },
+    "o:resource_class": {
+        "@id": "http:\/\/localhost\/omk_thyp_22-23\/api\/resource_classes\/116",
+        "o:id": 116
+    },
+    "o:resource_template": {
+        "@id": "http:\/\/localhost\/omk_thyp_22-23\/api\/resource_templates\/2",
+        "o:id": 2
+    },
+    "o:thumbnail": null,
+    "o:title": "Film",
+    "thumbnail_display_urls": {
+        "large": null,
+        "medium": null,
+        "square": null
+    },
+    "o:created": {
+        "@value": "2022-11-28T12:41:34+00:00",
+        "@type": "http:\/\/www.w3.org\/2001\/XMLSchema#dateTime"
+    },
+    "o:modified": {
+        "@value": "2022-11-28T12:43:56+00:00",
+        "@type": "http:\/\/www.w3.org\/2001\/XMLSchema#dateTime"
+    },
+    "o:media": [],
+    "o:item_set": [],
+    "o:site": [],
+    "dcterms:title": [{
+        "type": "literal",
+        "property_id": 1,
+        "property_label": "Title",
+        "is_public": true,
+        "@value": "Film"
+    }],
+    "jdc:hasConcept": [{
+        "type": "uri",
+        "property_id": 194,
+        "property_label": "a comme concept",
+        "is_public": true,
+        "@id": "https:\/\/dbpedia.org\/ontology\/Actor"
+    }, {
+        "type": "resource",
+        "property_id": 194,
+        "property_label": "a comme concept",
+        "is_public": true,
+        "@id": "http:\/\/localhost\/omk_thyp_22-23\/api\/items\/2",
+        "value_resource_id": 2,
+        "value_resource_name": "items",
+        "url": null,
+        "display_title": "R\u00e9alisateur"
+    }],
+    "@reverse": {
+        "jdc:hasConcept": [{
+            "@id": "http:\/\/localhost\/omk_thyp_22-23\/api\/resources\/3",
+            "o:title": "Bourvil"
+        }, {
+            "@id": "http:\/\/localhost\/omk_thyp_22-23\/api\/resources\/7",
+            "o:title": "Le corniaud"
+        }]
+    }
+}, {
+    "@context": "http:\/\/localhost\/omk_thyp_22-23\/api-context",
+    "@id": "http:\/\/localhost\/omk_thyp_22-23\/api\/items\/2",
+    "@type": ["o:Item", "jdc:Concept"],
+    "o:id": 2,
+    "o:is_public": true,
+    "o:owner": {
+        "@id": "http:\/\/localhost\/omk_thyp_22-23\/api\/users\/1",
+        "o:id": 1
+    },
+    "o:resource_class": {
+        "@id": "http:\/\/localhost\/omk_thyp_22-23\/api\/resource_classes\/116",
+        "o:id": 116
+    },
+    "o:resource_template": {
+        "@id": "http:\/\/localhost\/omk_thyp_22-23\/api\/resource_templates\/2",
+        "o:id": 2
+    },
+    "o:thumbnail": null,
+    "o:title": "R\u00e9alisateur",
+    "thumbnail_display_urls": {
+        "large": null,
+        "medium": null,
+        "square": null
+    },
+    "o:created": {
+        "@value": "2022-11-28T12:43:33+00:00",
+        "@type": "http:\/\/www.w3.org\/2001\/XMLSchema#dateTime"
+    },
+    "o:modified": {
+        "@value": "2022-11-28T12:43:33+00:00",
+        "@type": "http:\/\/www.w3.org\/2001\/XMLSchema#dateTime"
+    },
+    "o:media": [],
+    "o:item_set": [],
+    "o:site": [],
+    "dcterms:title": [{
+        "type": "literal",
+        "property_id": 1,
+        "property_label": "Title",
+        "is_public": true,
+        "@value": "R\u00e9alisateur"
+    }],
+    "@reverse": {
+        "jdc:hasConcept": [{
+            "@id": "http:\/\/localhost\/omk_thyp_22-23\/api\/resources\/1",
+            "o:title": "Film"
+        }, {
+            "@id": "http:\/\/localhost\/omk_thyp_22-23\/api\/resources\/3",
+            "o:title": "Bourvil"
+        }]
+    }
+}, {
+    "@context": "http:\/\/localhost\/omk_thyp_22-23\/api-context",
+    "@id": "http:\/\/localhost\/omk_thyp_22-23\/api\/items\/3",
+    "@type": ["o:Item", "foaf:Person"],
+    "o:id": 3,
+    "o:is_public": true,
+    "o:owner": {
+        "@id": "http:\/\/localhost\/omk_thyp_22-23\/api\/users\/1",
+        "o:id": 1
+    },
+    "o:resource_class": {
+        "@id": "http:\/\/localhost\/omk_thyp_22-23\/api\/resource_classes\/94",
+        "o:id": 94
+    },
+    "o:resource_template": {
+        "@id": "http:\/\/localhost\/omk_thyp_22-23\/api\/resource_templates\/4",
+        "o:id": 4
+    },
+    "o:thumbnail": null,
+    "o:title": "Bourvil",
+    "thumbnail_display_urls": {
+        "large": "http:\/\/localhost\/omk_thyp_22-23\/files\/large\/ee279c203d6abe6aa4be9bbe9a5d10d16fb7bf8b.jpg",
+        "medium": "http:\/\/localhost\/omk_thyp_22-23\/files\/medium\/ee279c203d6abe6aa4be9bbe9a5d10d16fb7bf8b.jpg",
+        "square": "http:\/\/localhost\/omk_thyp_22-23\/files\/square\/ee279c203d6abe6aa4be9bbe9a5d10d16fb7bf8b.jpg"
+    },
+    "o:created": {
+        "@value": "2022-11-28T12:54:30+00:00",
+        "@type": "http:\/\/www.w3.org\/2001\/XMLSchema#dateTime"
+    },
+    "o:modified": {
+        "@value": "2022-11-28T13:15:27+00:00",
+        "@type": "http:\/\/www.w3.org\/2001\/XMLSchema#dateTime"
+    },
+    "o:media": [{
+        "@id": "http:\/\/localhost\/omk_thyp_22-23\/api\/media\/4",
+        "o:id": 4
+    }],
+    "o:item_set": [],
+    "o:site": [],
+    "dcterms:title": [{
+        "type": "literal",
+        "property_id": 1,
+        "property_label": "Title",
+        "is_public": true,
+        "@value": "Bourvil"
+    }],
+    "dcterms:description": [{
+        "type": "resource",
+        "property_id": 4,
+        "property_label": "Description",
+        "is_public": true,
+        "@id": "http:\/\/localhost\/omk_thyp_22-23\/api\/media\/4",
+        "value_resource_id": 4,
+        "value_resource_name": "media",
+        "url": null,
+        "display_title": "https:\/\/diivii.com\/blog\/wp-content\/uploads\/2022\/07\/bourvil2-1.jpeg",
+        "thumbnail_url": "http:\/\/localhost\/omk_thyp_22-23\/files\/square\/ee279c203d6abe6aa4be9bbe9a5d10d16fb7bf8b.jpg",
+        "thumbnail_title": "https:\/\/diivii.com\/blog\/wp-content\/uploads\/2022\/07\/bourvil2-1.jpeg",
+        "thumbnail_type": "image\/jpeg"
+    }],
+    "jdc:hasConcept": [{
+        "type": "resource",
+        "property_id": 194,
+        "property_label": "a comme concept",
+        "is_public": true,
+        "@id": "http:\/\/localhost\/omk_thyp_22-23\/api\/items\/2",
+        "value_resource_id": 2,
+        "value_resource_name": "items",
+        "url": null,
+        "display_title": "R\u00e9alisateur"
+    }, {
+        "type": "resource",
+        "property_id": 194,
+        "property_label": "a comme concept",
+        "is_public": true,
+        "@id": "http:\/\/localhost\/omk_thyp_22-23\/api\/items\/1",
+        "value_resource_id": 1,
+        "value_resource_name": "items",
+        "url": null,
+        "display_title": "Film"
+    }],
+    "@reverse": {
+        "jdc:hasActant": [{
+            "@id": "http:\/\/localhost\/omk_thyp_22-23\/api\/resources\/7",
+            "o:title": "Le corniaud"
+        }]
+    }
+}, {
+    "@context": "http:\/\/localhost\/omk_thyp_22-23\/api-context",
+    "@id": "http:\/\/localhost\/omk_thyp_22-23\/api\/items\/5",
+    "@type": ["o:Item", "foaf:Person"],
+    "o:id": 5,
+    "o:is_public": true,
+    "o:owner": {
+        "@id": "http:\/\/localhost\/omk_thyp_22-23\/api\/users\/1",
+        "o:id": 1
+    },
+    "o:resource_class": {
+        "@id": "http:\/\/localhost\/omk_thyp_22-23\/api\/resource_classes\/94",
+        "o:id": 94
+    },
+    "o:resource_template": {
+        "@id": "http:\/\/localhost\/omk_thyp_22-23\/api\/resource_templates\/4",
+        "o:id": 4
+    },
+    "o:thumbnail": null,
+    "o:title": "De Funes",
+    "thumbnail_display_urls": {
+        "large": "http:\/\/localhost\/omk_thyp_22-23\/files\/large\/4570edd132dd167457012616da028fb36e8a3a57.jpg",
+        "medium": "http:\/\/localhost\/omk_thyp_22-23\/files\/medium\/4570edd132dd167457012616da028fb36e8a3a57.jpg",
+        "square": "http:\/\/localhost\/omk_thyp_22-23\/files\/square\/4570edd132dd167457012616da028fb36e8a3a57.jpg"
+    },
+    "o:created": {
+        "@value": "2022-11-28T13:51:40+00:00",
+        "@type": "http:\/\/www.w3.org\/2001\/XMLSchema#dateTime"
+    },
+    "o:modified": {
+        "@value": "2022-11-28T13:51:40+00:00",
+        "@type": "http:\/\/www.w3.org\/2001\/XMLSchema#dateTime"
+    },
+    "o:media": [{
+        "@id": "http:\/\/localhost\/omk_thyp_22-23\/api\/media\/6",
+        "o:id": 6
+    }],
+    "o:item_set": [],
+    "o:site": [],
+    "dcterms:title": [{
+        "type": "literal",
+        "property_id": 1,
+        "property_label": "Title",
+        "is_public": true,
+        "@value": "De Funes"
+    }],
+    "foaf:firstName": [{
+        "type": "literal",
+        "property_id": 139,
+        "property_label": "firstName",
+        "is_public": true,
+        "@value": "Louis"
+    }],
+    "foaf:family_name": [{
+        "type": "literal",
+        "property_id": 144,
+        "property_label": "family_name",
+        "is_public": true,
+        "@value": "De Funes"
+    }],
+    "@reverse": {
+        "jdc:hasActant": [{
+            "@id": "http:\/\/localhost\/omk_thyp_22-23\/api\/resources\/7",
+            "o:title": "Le corniaud"
+        }]
+    }
+}, {
+    "@context": "http:\/\/localhost\/omk_thyp_22-23\/api-context",
+    "@id": "http:\/\/localhost\/omk_thyp_22-23\/api\/items\/7",
+    "@type": ["o:Item", "jdc:Doc"],
+    "o:id": 7,
+    "o:is_public": true,
+    "o:owner": {
+        "@id": "http:\/\/localhost\/omk_thyp_22-23\/api\/users\/1",
+        "o:id": 1
+    },
+    "o:resource_class": {
+        "@id": "http:\/\/localhost\/omk_thyp_22-23\/api\/resource_classes\/114",
+        "o:id": 114
+    },
+    "o:resource_template": {
+        "@id": "http:\/\/localhost\/omk_thyp_22-23\/api\/resource_templates\/3",
+        "o:id": 3
+    },
+    "o:thumbnail": null,
+    "o:title": "Le corniaud",
+    "thumbnail_display_urls": {
+        "large": null,
+        "medium": null,
+        "square": null
+    },
+    "o:created": {
+        "@value": "2022-11-28T13:52:47+00:00",
+        "@type": "http:\/\/www.w3.org\/2001\/XMLSchema#dateTime"
+    },
+    "o:modified": {
+        "@value": "2022-11-28T13:53:06+00:00",
+        "@type": "http:\/\/www.w3.org\/2001\/XMLSchema#dateTime"
+    },
+    "o:media": [],
+    "o:item_set": [],
+    "o:site": [],
+    "dcterms:title": [{
+        "type": "literal",
+        "property_id": 1,
+        "property_label": "Title",
+        "is_public": true,
+        "@value": "Le corniaud"
+    }],
+    "jdc:hasConcept": [{
+        "type": "resource",
+        "property_id": 194,
+        "property_label": "a comme concept",
+        "is_public": true,
+        "@id": "http:\/\/localhost\/omk_thyp_22-23\/api\/items\/1",
+        "value_resource_id": 1,
+        "value_resource_name": "items",
+        "url": null,
+        "display_title": "Film"
+    }],
+    "jdc:hasActant": [{
+        "type": "resource",
+        "property_id": 192,
+        "property_label": "a comme actant",
+        "is_public": true,
+        "@id": "http:\/\/localhost\/omk_thyp_22-23\/api\/items\/5",
+        "value_resource_id": 5,
+        "value_resource_name": "items",
+        "url": null,
+        "display_title": "De Funes",
+        "thumbnail_url": "http:\/\/localhost\/omk_thyp_22-23\/files\/square\/4570edd132dd167457012616da028fb36e8a3a57.jpg",
+        "thumbnail_title": "https:\/\/upload.wikimedia.org\/wikipedia\/commons\/thumb\/2\/23\/Louis_de_Fun%C3%A8s_%E2%80%94_L%27Homme_orchestre_%281970%29_%28recadr%C3%A9%29.jpg\/260px-Louis_de_Fun%C3%A8s_%E2%80%94_L%27Homme_orchestre_%281970%29_%28recadr%C3%A9%29.jpg",
+        "thumbnail_type": "image\/jpeg"
+    }, {
+        "type": "resource",
+        "property_id": 192,
+        "property_label": "a comme actant",
+        "is_public": true,
+        "@id": "http:\/\/localhost\/omk_thyp_22-23\/api\/items\/3",
+        "value_resource_id": 3,
+        "value_resource_name": "items",
+        "url": null,
+        "display_title": "Bourvil",
+        "thumbnail_url": "http:\/\/localhost\/omk_thyp_22-23\/files\/square\/ee279c203d6abe6aa4be9bbe9a5d10d16fb7bf8b.jpg",
+        "thumbnail_title": "https:\/\/diivii.com\/blog\/wp-content\/uploads\/2022\/07\/bourvil2-1.jpeg",
+        "thumbnail_type": "image\/jpeg"
+    }]
+}]

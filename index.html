@@ -358,13 +358,20 @@ var dataPhoto, dataForm, dataFacet=[], dataDoublons={}
                 .text(function(d) { 
                     return 'Projet : '+d['Projet']; 
                         });
-            cardBody.append('h6').text("plus d'infos...")
+            */
+            cardBody.append('h6').text("Fork AleaConf...")
                 .on("click",function(e){
                             console.log(e);
                             selectEtu = e;
-                            $('#infosEtu').modal('show');
+                            let lien = "https://github.com/"+e['Votre compte GitHub']+"/ChaoticumSeminario";
+                            window.open(lien,'_blank');
                         });
-            */
+            cardBody.append('h6').text("Repo THYP_22-23_SmartContrat")
+                .on("click",function(e){
+                            selectEtu = e;
+                            let lien = "https://github.com/"+e['Votre compte GitHub']+"/THYP_22-23_SmartContrat";
+                            window.open(lien,'_blank');
+                        });
 
             //construction du layout pour les graphiques
             html = '<div class="container"><div class="row">';
