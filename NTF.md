@@ -4,9 +4,8 @@
    - https://www.diigo.com/user/luckysemiosis?query=smartcontrat
 
 - expériences THYP 22-23 : https://samszo.github.io/THYP_22-23/
+![ArchitectureSmartContrat](/img/1650567548325.png "Architecture smart contrat")
 
-
-<img src="[/assets/img/MarineGEO_logo.png](https://media.licdn.com/dms/image/C5612AQFBy0i6iN6qiA/article-cover_image-shrink_720_1280/0/1650567548325?e=1679529600&v=beta&t=7FpkMheIXK-GdmSB8Hq-Qh2lCwWrJVm_QOwOg0XpYK0)" alt="Architecture smart contrat" />
 
 - créer un compte Wallet : https://metamask.io/
 
