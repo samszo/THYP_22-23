@@ -1,3 +1,10 @@
+- veilles
+   - https://www.diigo.com/user/luckysemiosis?query=blockchain
+   - https://www.diigo.com/user/luckysemiosis?query=%23web3.0
+   - https://www.diigo.com/user/luckysemiosis?query=smartcontrat
+
+- expériences THYP 22-23 : https://samszo.github.io/THYP_22-23/
+
 - créer un compte Wallet : https://metamask.io/
 
 - tutorial smart contrat : https://cryptozombies.io/fr/course/
@@ -6,6 +13,7 @@
   - https://trufflesuite.com/truffle/ 
   - https://trufflesuite.com/docs/ganache/
   - https://trufflesuite.com/blog/build-on-web3-with-truffle-vs-code-extension/
+- exemples : https://trufflesuite.com/boxes/
 
 - serveur local de smart contrat : https://geth.ethereum.org/ 
    - installation : https://geth.ethereum.org/docs/install-and-build/installing-geth
