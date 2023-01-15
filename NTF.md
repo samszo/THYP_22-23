@@ -1,10 +1,13 @@
-- veilles
+# veilles blockchain - web 3 - smart contrat 
    - https://www.diigo.com/user/luckysemiosis?query=blockchain
    - https://www.diigo.com/user/luckysemiosis?query=%23web3.0
    - https://www.diigo.com/user/luckysemiosis?query=smartcontrat
 
-- expériences THYP 22-23 : https://samszo.github.io/THYP_22-23/
+# expériences THYP 22-23 : développer un smart contrat
+   - https://samszo.github.io/THYP_22-23/
+
 ![ArchitectureSmartContrat](/img/1650567548325.png "Architecture smart contrat")
+cf. https://www.linkedin.com/pulse/web-30-blockchain-smart-contract-solidity-development-sankar-cissp/?trk=pulse-article_more-articles_related-content-card
 
 
 - créer un compte Wallet : https://metamask.io/
