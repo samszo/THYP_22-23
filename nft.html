@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NTF uses</title>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/showdown/1.9.0/showdown.min.js" crossorigin="anonymous"></script>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <style>
+        div {
+            margin: 10px;
+        }
+
+    </style>
+</head>
+<body>
+    <script>
+
+    //récupération des données des formulaires google
+    let url = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vTSPoiXGz9Bjde8S1rcsa1pE64-pQkVHYB6EMCmmbygqu4X1bAkUkXdCqz1N07NmG6MMGKzf2TLlFHQ/pub?gid=251000207&single=true&output=csv';
+    d3.csv(url).then(data=>{
+        let divs = d3.select('body').data(data).enter().append('div');
+        divs.append('h1').html(d=> d['Votre prénom'].charAt(0).toUpperCase()+d['Votre prénom'].substr(1).toLowerCase() + ' ' + d['Votre nom'].charAt(0).toUpperCase()+d['Votre nom'].substr(1).toLowerCase());
+        divs.append('div').attr('id',d=>d['Votre compte GitHub']).html(d=>mdToHtml(d));
+    });
+    
+    function mdToHtml(d, cont){
+        let u = "https://github.com/"+d['Votre compte GitHub']+"/ChaoticumSeminario/blob/main/NFT.md",
+            html, converter = new showdown.Converter();
+        $.ajax({
+            url: u,
+            type: 'GET',
+            crossDomain: true,
+            success: function(data) { 
+                html = converter.makeHtml(data);
+                d3.select('#'+d['Votre compte GitHub']).html(html);
+            },
+            error: function(error) { 
+                console.log(error); 
+            },
+        });         
+
+
+        d3.text(u).then(data=>{
+            var converter = new showdown.Converter(),
+                html = converter.makeHtml(data);
+            d3.select('#'+d['Votre compte GitHub']).html(html);
+        });
+    }
+</script>
+
+</body>
+</html>
